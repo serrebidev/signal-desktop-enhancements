@@ -411,6 +411,22 @@ def _focus_chats_list(page):
 		max_depth=10,
 		timeout=0.25,
 	)
+	if grid is None:
+		return False
+	fallback = None
+	for acc, _depth, _chain in _iter_tree(grid, max_depth=6, timeout=0.25):
+		if not _is_focusable(acc) or not _is_visible(acc):
+			continue
+		role = _role(acc)
+		name = _normalize(_name(acc))
+		if fallback is None and role in (ROLE_PUSH_BUTTON, ROLE_ROW):
+			fallback = acc
+		if role == ROLE_PUSH_BUTTON and (
+			name.startswith("chat with") or "last message" in name
+		):
+			return _focus_acc(acc)
+	if fallback is not None:
+		return _focus_acc(fallback)
 	if grid is not None:
 		return _focus_acc(grid)
 	return False
