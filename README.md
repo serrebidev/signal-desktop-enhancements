@@ -23,3 +23,6 @@ Signal Desktop Enhancements is an NVDA add-on that adds direct navigation shortc
 ## Development
 
 Run `build.ps1` from the repository root to create a release-ready `.nvda-addon` package in `dist/`.
+
+##Submit bugs in issues, or join my Telegram group!
+(https://t.me/SerrebiProjects)
