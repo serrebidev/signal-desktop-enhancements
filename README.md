@@ -2,6 +2,8 @@
 
 Signal Desktop Enhancements is an NVDA add-on that adds direct navigation shortcuts for Signal Desktop.
 
+**Questions, bugs, or release news?** Join the [SerrebiProjects Telegram group](https://t.me/SerrebiProjects), the fastest place to get help.
+
 ## Shortcuts
 
 - `Alt+1`: Focus the chats list
