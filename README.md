@@ -2,7 +2,11 @@
 
 Signal Desktop Enhancements is an NVDA add-on that adds direct navigation shortcuts for Signal Desktop.
 
+[![Join SerrebiProjects on Telegram](https://img.shields.io/badge/Telegram-SerrebiProjects-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/SerrebiProjects)
+
 **Questions, bugs, or release news?** Join the [SerrebiProjects Telegram group](https://t.me/SerrebiProjects), the fastest place to get help.
+
+More serrebi projects: [projects.serrebiradio.com](https://projects.serrebiradio.com)
 
 ## Shortcuts
 
@@ -28,3 +32,7 @@ Run `build.ps1` from the repository root to create a release-ready `.nvda-addon`
 
 ##Submit bugs in issues, or join my Telegram group!
 (https://t.me/SerrebiProjects)
+
+## Credits
+
+See [CREDITS.md](CREDITS.md) for where the ideas behind this project came from, and the third-party projects it builds on.
