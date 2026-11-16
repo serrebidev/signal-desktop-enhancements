@@ -5,3 +5,12 @@ Signal Desktop Enhancements is an NVDA add-on that adds direct navigation shortc
 Signal Desktop is Signal's. NVDA is NV Access's. This add-on only adds the shortcuts on top.
 
 Questions and bug reports are welcome in the [SerrebiProjects Telegram group](https://t.me/SerrebiProjects). More serrebi projects: [projects.serrebiradio.com](https://projects.serrebiradio.com).
+
+
+## About this project
+
+- GitHub profile: [serrebidev](https://github.com/serrebidev)
+- Repository (GitHub): [https://github.com/serrebidev/signal-desktop-enhancements](https://github.com/serrebidev/signal-desktop-enhancements)
+- Repository (Forgejo): [https://git.serrebiradio.com/serrebi/signal-desktop-enhancements](https://git.serrebiradio.com/serrebi/signal-desktop-enhancements)
+- Projects site: [projects.serrebiradio.com](https://projects.serrebiradio.com)
+- Questions and bug reports: [SerrebiProjects Telegram group](https://t.me/SerrebiProjects)
